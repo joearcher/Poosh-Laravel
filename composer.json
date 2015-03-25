@@ -1,0 +1,26 @@
+{
+    "name": "joearcher/pooshlaravel",
+    "description": "Poosh push messaging facade for Laravel 5",
+    "license": "MIT",
+    "type": "API",
+    "keywords": [
+        "Poosh",
+        "Push messaging"
+    ],
+    "require": {
+        "laravel/framework": "5.0.*",
+        "guzzlehttp/guzzle": "~5.2"
+    },
+     "autoload": {
+        "psr-4": {
+            "Joearcher\\Pooshlaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Archer",
+            "email": "joe.archer@gmail.com"
+        }
+    ],
+     "minimum-stability": "dev"
+}
