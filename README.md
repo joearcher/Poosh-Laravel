@@ -15,7 +15,7 @@ After updating add the ServiceProvider the the providers array in `app/config/ap
 And then you can add the facade to the Facades array
 
 ```php
-'Tomatoes' =>	'Joearcher\Pooshlaravel\Facades\Poosh',
+'Poosh' =>	'Joearcher\Pooshlaravel\Facades\Poosh',
 ```
 Publish the config
 
