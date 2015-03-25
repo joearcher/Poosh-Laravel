@@ -33,7 +33,7 @@ This creates a `poosh.php` file in `app/config`, we recommend setting these opti
 
 
 ## Usage
-This facade currently provides one method `Poosh::send($event,$payload)` it requires 2 parameters, `$event` must be a `string`, this is the name of the event to fire on the client. `$payload` must be an `array` and is the payload to be sent to all clients listening for the event.
+This facade currently provides one method `Poosh::send($event,$payload)` it requires 2 parameters, `$event` must be a `string`, this is the name of the event to fire on the client. `$payload` must be an `array()` and is the payload to be sent to all clients listening for the event.
 
 ````php
 	Poosh::send('message',['body' => 'This is a message']);
