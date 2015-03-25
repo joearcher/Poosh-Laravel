@@ -26,7 +26,9 @@ artisan vendor:publish
 This creates a `poosh.php` file in `app/config`, we recommend setting these options via your .env file
 
 `POOSH_SECRET` - This is the shared secret it needs to be the same as the one set on your Poosh server.
-`POOSH_URL` - The full url including the protocol to your Poosh server, e.g. `http://pooshserver.blaa`
+
+`POOSH_URL` - The full url including the protocol to your Poosh server, e.g. `http://pooshserver.blaa`.
+
 `POOSH_PORT` - The server port set on your Poosh server (Default is 1337).
 
 
