@@ -7,7 +7,7 @@ Require this package in composer.json and run `composer update`
 ```javascript
 "joearcher/pooshlaravel": "dev-master"
 ```
-After updating add the ServiceProvider the the providers array in `app/config/app.php`
+After updating add the ServiceProvider the the providers array in `config/app.php`
 
 ```php
 'Joearcher\Pooshlaravel\PooshlaravelServiceProvider',
@@ -23,7 +23,7 @@ Publish the config
 artisan vendor:publish
 ```
 
-This creates a `poosh.php` file in `app/config`, we recommend setting these options via your .env file
+This creates a `poosh.php` file in `config/`, we recommend setting these options via your .env file
 
 `POOSH_SECRET` - This is the shared secret it needs to be the same as the one set on your Poosh server.
 
