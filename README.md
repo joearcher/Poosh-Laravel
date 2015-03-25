@@ -27,13 +27,15 @@ This creates a `poosh.php` file in `config/`, we recommend setting these options
 
 `POOSH_SECRET` - This is the shared secret it needs to be the same as the one set on your Poosh server.
 
-`POOSH_URL` - The full url including the protocol to your Poosh server, e.g. `http://pooshserver.blaa`.
+`POOSH_URL` - The full url including the protocol to your Poosh server, e.g. `http://poosh.blaa`.
 
 `POOSH_PORT` - The server port set on your Poosh server (Default is 1337).
 
 
 ## Usage
-This facade currently provides one method `Poosh::send($event,$payload)` it requires 2 parameters, `$event` must be a `string`, this is the name of the event to fire on the client. `$payload` must be an `array()` and is the payload to be sent to all clients listening for the event.
+This facade currently provides one method which requires 2 parameters. 
+
+`Poosh::send($event,$payload)`  `$event` must be a `string`, this is the name of the event to fire on the client. `$payload` must be an `array()` and is the payload to be sent to all clients listening for the event.
 
 ````php
 	Poosh::send('message',['body' => 'This is a message']);
